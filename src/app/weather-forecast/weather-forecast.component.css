@@ -1,0 +1,17 @@
+.weather{
+   
+  margin: 0;
+  margin: 0;
+  padding: 0;
+  background-image: url('https://img.freepik.com/free-photo/white-cloud-blue-sky_74190-2381.jpg?w=1060&t=st=1695728902~exp=1695729502~hmac=d3d662763124c51c2e3e0c19dd3de0a37f2bbb3070312355fdfa63ea1d8fd605');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 100%;
+  height: 100%;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

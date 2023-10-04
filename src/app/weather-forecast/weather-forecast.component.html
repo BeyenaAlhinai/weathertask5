@@ -1,18 +1,12 @@
-<section style="
- background-image: url('https://img.freepik.com/free-photo/white-cloud-blue-sky_74190-2381.jpg?w=1060&t=st=1695728902~exp=1695729502~hmac=d3d662763124c51c2e3e0c19dd3de0a37f2bbb3070312355fdfa63ea1d8fd605');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position-x: 100%;">
-<div class="weather"  >
+
+<section class="weather" >
+<div>
     <div class="card text-white bg-primary m-5 Stylethis">
     <div class="row">
-      
         <div class="card-header text-center" style="text-align: center;">
-          
           <br>
           <br>  
-          <h2 style="font-size: 40px;"> Weather Today In </h2>
+          <h2 style="font-size: 40px;"> TODAY WEATHER </h2>
             <div class="card-body">
             <div *ngIf="weatherData">
               <h3 style="color:red; font-size: 30px;">{{ weatherData.name }}</h3>
@@ -24,12 +18,7 @@
             <div *ngIf="error">
               <p>{{ error }}</p>
             </div>
-        
-            
                <br>
-            
-       
-        
             <form (ngSubmit)="searchWeather()">
               <input type="text" class="form-control mb-3" placeholder="Enter a Country Name" [(ngModel)]="city" name="city">
               <br>
@@ -41,5 +30,5 @@
          </div>
          </div>
       </div>
-  
-  
+      <body>
+      
